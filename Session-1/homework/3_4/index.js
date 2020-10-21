@@ -21,14 +21,3 @@ console.log(message)
 // 4d
 studentCount++;
 console.log(studentCount)
-
-
-
-
-
-
-
-
-
-
-
