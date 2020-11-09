@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freaking Math</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <!-- Settings -->
+        <div class="setting">
+            <div class="setting_container">
+                <div class="setting_title">
+                    <i class="fas fa-cogs"></i>
+                    Settings
+                </div>
+                <div class="setting_items">
+                    <span>
+                        <span>Score</span>
+                        <input type="checkbox" id="score_box">
+                    </span>
+                    <span>
+                        <span>Timer</span>
+                        <input type="checkbox" id="timer_box">
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!-- Game -->
+
+        <!--button for play -->
+        <div class="contentplay">
+            <button onclick="firstTurn();" class="play">▶</button>
+            <p>Play now!</p>
+        </div>
+    
+        <!-- main content game -->
+        <div class="main">
+            <div id="totalTime" class="content-time">
+                <span class="title"></span>
+                <div id="bar-area">
+                </div>
+            </div>
+            <div class="result" id="game_score">
+                <input type="text" id="score" name="score" value="1" disabled>
+            </div>
+            <div class="sum">
+                <p><span id="sum1"></span> + <span id="sum2"></span> = <span id="resultrandom"></span></p>
+            </div>
+            <div class="buttons">
+                <button id="wrong">✖</button>
+                <button id="right">✔</button>
+            </div>
+            <div id="endGame">
+                <!--<span>You wrong!</span>-->
+                <span>You Lose, </span>
+                <a href="index.html">Play again!</a>
+            </div>
+           
+        </div>
+    
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
