@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timesheet</title>
+</head>
+<body>
+    <div>
+        <input id="Add project" type="text" placeholder="Enter project">
+        <input id="Add task" type="text" placeholder="Enter task">
+        <input id="Add time spent" type="text" placeholder="Time spent">
+        <button id="add_btn">Add</button>
+        <button id="clear_btn">Clear</button>
+    </div>
+    <div style="padding: 2em;">
+        <table>
+            <thead>
+                <th>Project</th>
+                <th>Task</th>
+                <th>Time spent</th>
+                <th>Actions</th>
+            </thead>
+            <tbody id="ts_tbody">
+
+            </tbody>
+        </table>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
