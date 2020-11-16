@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: 'EB Garamond';
+}
+div {
+    display: block;
+}
+.header {
+    padding-bottom: 10rem;
+    background-image: url('https://scontent-xsp1-2.xx.fbcdn.net/v/t1.15752-9/p1080x2048/125152738_986546058422007_4513017913120055634_n.jpg?_nc_cat=101&ccb=2&_nc_sid=ae9488&_nc_ohc=LnNcngItKHIAX_U1Uh2&_nc_ht=scontent-xsp1-2.xx&tp=6&oh=ec212ea2719155ddca83214442de971f&oe=5FD28DB7');
+    background-position: center bottom;
+    background-size: cover;
+    text-align: center;
+}
+.header > header {
+    display: flex;
+    flex-direction: row;
+}
+.header > h1 {
+    display: flex;
+    color: wheat;
+    justify-content: center;
+    font-family: 'EB Garamond';
+    font-size: 80px;
+}
+.header a {
+    margin-left: 20px;
+}
+.header > p {
+    display: flex;
+    color: wheat;
+    justify-content: center;
+    font-family: 'EB Garamond';
+    font-size: 30px;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    height: 6em;
+    align-items: center;
+}
+.menu > a {
+    color: #999;
+    text-decoration: none;
+}
+.menu > a:hover {
+    color: white;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    background-color: #12353f;
+    flex-wrap: wrap;
+}
+
+.content > div {
+    margin: 2rem 1rem 1rem 2rem;
+    width: 28%;
+    border-radius: 10px;
+}
+.content .dish > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.content .dish > a {
+    display: flex;
+    height: 5rem;
+    align-items: center;
+    background-color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-decoration: none;
+    font-family: 'EB Garamond';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25em;
+    color: #000;
+    text-align: center;
+}
+.content .dish > a:hover {
+    color: turquoise;
+}
+.content .dish .dish-content {
+    background-color: white;
+    padding: 10%;
+}

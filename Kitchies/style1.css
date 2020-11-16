@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: 'EB Garamond';
+}
+.header {
+    padding-bottom: 10rem;
+    background-image: url('https://scontent-xsp1-2.xx.fbcdn.net/v/t1.15752-9/p1080x2048/125152738_986546058422007_4513017913120055634_n.jpg?_nc_cat=101&ccb=2&_nc_sid=ae9488&_nc_ohc=LnNcngItKHIAX_U1Uh2&_nc_ht=scontent-xsp1-2.xx&tp=6&oh=ec212ea2719155ddca83214442de971f&oe=5FD28DB7');
+    background-position: center bottom;
+    background-size: cover;
+    text-align: center;
+}
+.header > header {
+    display: flex;
+    flex-direction: row;
+}
+.header > h1 {
+    display: flex;
+    color: wheat;
+    justify-content: center;
+    font-family: 'EB Garamond';
+    font-size: 80px;
+}
+.header a {
+    margin-left: 20px;
+}
+.header > p {
+    display: flex;
+    color: wheat;
+    justify-content: center;
+    font-family: 'EB Garamond';
+    font-size: 30px;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    height: 6em;
+    align-items: center;
+}
+.menu > a {
+    color: #999;
+    text-decoration: none;
+}
+.menu > a:hover {
+    color: white;
+}
+.content {
+    background-color: #12353f;
+}
+.content .dish {
+    margin-left: 2rem;
+    width: 60%;
+    background-color: white;
+    border-radius: 10px;
+}
+.content .dish .intro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.content .dish .intro > a {
+    font-size: 30px;
+    font-family: 'EB Garamond';
+    text-align: center;
+    padding: 2rem;
+}
+.content .dish .intro > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 66%;
+}
+.content .dish .recipe > p {
+    background-color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'EB Garamond';
+}
+.content .dish .recipe > ul {
+    margin: 1rem 2rem 1rem 2rem;
+    font-family: 'EB Garamond';
+}
+.content .dish .recipe > ol {
+    margin: 1rem 2rem 1rem 2rem;
+    font-family: 'EB Garamond';
+}
+.content .dish .recipe > img {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 66%;
+}
+.content .dish .recipe .comment {
+    text-align: center;
+}
