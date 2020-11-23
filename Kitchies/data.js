@@ -10,7 +10,8 @@ let data = [
         <p>Trong nhiều công thức người ta dùng máy làm bánh mì để làm chà bông, vì mình (và rất nhiều bạn) không có máy này nên mình sử dụng 4 phương pháp đơn giản và ra thành phẩm bông và tơi không kém, đó là sử dụng máy đánh trứng, máy xay thịt, máy xay sinh tố và chà tay.</p>
         <ul>
             <li>Với máy xay thịt: mình dùng Bosch 800w có lưỡi dao nhựa, xay tới khi đủ tơi và sợi nhỏ thì dừng, nếu không có lưỡi nhựa các bạn xài lưỡi sắt nhưng dán băng keo lại hoặc sử dụng lưỡi sắt nhưng nhấp nhả 1-2 giây để chà bông không vụn như bột.</li>
-            <img src="Kitchies\img\chabong2.jpg" alt="">
+            <img class="content-img" src="img/chabong2.jpg" alt="">
+            
             <li>Dùng máy sinh tố: cũng xay tới khi bạn thấy đủ bông, tơi, sợi nhỏ vụn (nhưng không phải bột).</li>
             <li>Máy đánh trứng cầm tay: dùng que xoắn hoặc que phới lồng đánh trứng đều được. Mình dùng thử que xoắn thì thành phẩm khá ổn, bông, tơi nhưng không đều như máy xay thịt và hơi mỏi tay xíu.</li>
             <li>Chà tay: vừa rang trên chảo vừa cầm thịt chà vào nhau, thao tác gần giống như vò quần áo, hoặc dùng má bàn tay áp vào nhau để chà. Trong ảnh mình mới chà sơ sơ cũng thấy thịt bắt</li>
@@ -33,7 +34,7 @@ let data = [
             <li>2-3 thìa cafe đường</li>
             <li>1/2 thìa cafe ngũ vị hương (tùy chọn)</li>
             <li>1,5-2 thìa ăn hắc xì dầu (mình dùng Lee Kum Kee)-để tạo màu như hình</li>
-            <img src="img\chabong5.jpg" alt="">
+            <img class="content-img" src="img/chabong5.jpg" alt="">
             <strong>CÁCH LÀM:</strong>
             <p>1.Thịt lợn các bạn lược bỏ phần mỡ bám, sau đó thái thành miếng hộp diêm. Tiến hành đun sôi rồi hớt bọt, hạ lửa và cho vào nồi quế, hồi, thảo quả, rượu, hành và gừng, đậy vung nấu khoảng 40 phút tới khi chọc đũa với lực không quá mạnh thấy đâm được thịt thì tắt bếp, cho ra rổ rửa sạch với nước lạnh rồi để ráo. Thịt không nên dai quá, khó xé và khó bông. Thịt mềm vừa chín tới, không quá nhũn mềm như thịt đông là được.</p>
             <p>2.Cho thịt vào túi ziplock dùng chày cối hoặc vật nặng đập nhẹ cho thịt tơi ra (không dằn mạnh sẽ nát thịt).</p>
@@ -57,7 +58,7 @@ let data = [
         content:`
         <p>Thịt kho Đông Pha (东坡肉) là một món ăn truyền thống của Hàng Châu, Trung Quốc được làm từ thịt ba chỉ, được đặt tên theo ông Tô Thức hay còn có hiệu là Tô Đông Pha (08/01/1037-24/08/1101). Ông là nhà văn, nhà thơ, họa sỹ, nhà thư pháp nổi tiếng Trung Quốc vào thời Tống. Ông được mệnh danh là một trong Bát đại gia Đường Tống (nguồn: Wikipedia). Trải qua nhiều thế kỷ, món thịt kho Đông Pha trở nên nổi tiếng khắp nơi vì hương vị thơm ngon, mềm mại và béo ngậy của nó.</p>
         <p>Bí quyết để nấu món thịt kho Đông Pha đó là rượu Thiệu Hưng và thời gian nấu. Rượu Thiệu Hưng kết hợp với hành gừng tỏi cho món thịt có mùi thơm đặc trưng, thời gian nấu đủ lâu để miếng thịt tan chảy ngay khi cho vào miệng. Và thịt để kho phải là thịt ba chỉ.</p>
-        <img src="Kitchies\img\thitkho2.jpg" alt="">
+        <img class="content-img" src="img/thitkho2.jpg" alt="">
         <strong>NGUYÊN LIỆU:</strong>
         <ul>
             <li>600gr thịt ba chỉ, chọn khúc dày, mỡ nạc đều nhau</li>
@@ -72,7 +73,7 @@ let data = [
             <li>2 cây hành lá (chỉ lấy phần lá xanh)</li>
             <li>1 thìa ăn tinh bột ngô</li>
             <li>50ml nước</li>
-            <img src="Kitchies\img\thitkho3.jpg" alt="">
+            <img class="content-img" src="img/thitkho3.jpg" alt="">
             <strong>CÁCH LÀM:</strong>
             <p>1.Thịt ba chỉ rửa sạch. Nếu còn có lông bám thì chà lớp da vào chảo nóng cho sạch. Sau đó luộc qua thịt ba chỉ để loại bỏ bẩn và sau đó định hình miếng thịt tốt hơn vì nếu cắt khúc lúc thịt còn tươi sống thì khi nấu nó co lại mất đi hình dạng vuông vắn ban đầu.</p>
             <p>2.Sau khi luộc sơ thì rửa miếng thịt, cắt thịt thành từng miếng vuông khoảng 4-5cm. Dùng dây chỉ nấu ăn buộc lại để giúp nạc và mỡ không bị tách nhau ra trong quá trình ninh nhừ (cái này không bắt buộc)</p>
@@ -92,7 +93,7 @@ let data = [
         content:`
         <p>Mình mua được bịch đùi ếch đông lạnh nên nảy sinh ra ý tưởng là sẽ nấu món cháo ếch Singapore. Tiếc là cái đùi hơi bé nên không được dày thịt như ếch ở quê nhà, lại chỉ có mỗi cái đùi. Mình đem nấu cháo một nửa còn một nửa để dành bữa nào làm ếch chiên xù.</p>
         <p>Thành phẩm có vị mặn đậm đà, hơi ngọt, cay cay, thơm mùi gừng phi, dầu mè và rượu, chan vào cùng với cháo ăn rất vừa miệng.</p>
-        <img src="Kitchies\img\chaoech2.jpg" alt="">
+        <img class="content-img" src="img/chaoech2.jpg" alt="">
         <strong>NGUYÊN LIỆU:</strong>
         <ul>
             <li>500-600gr ếch đã lột vỏ, làm sạch</li>
@@ -126,7 +127,7 @@ let data = [
             <li>nước luộc gà (hoặc nước lọc pha cùng hạt nêm, bột gà…)</li>
             <li>tiêu bột trắng để rắc lên cháo</li>
             <li>ít hành lá thái nhỏ để rắc lên cháo</li>
-            <img src="Kitchies\img\chaoech3.jpg" alt="">
+            <img class="content-img" src="img/chaoech3.jpg" alt="">
             <strong>CÁCH LÀM:</strong>
             <p>1.Ớt khô ngâm nước ấm tầm 15-20 phút cho mềm, sau đó cắt đôi cắt 3, nếu sợ cay các bạn nhớ bỏ hạt đi. Cho ớt khô giúp món ăn có hương vị ớt dậy mùi hơn. Phần thân trắng của hành lá thái nhỏ, phần hành lá xắt cọng dài cỡ 4-5cm. Hỗn hợp sốt nấu pha sẵn để riêng.</p>
             <p>2.Gạo và nếp rang lên cho trắng đục, sau đó cho nước vào nấu. Cháo không nên đặc quá cũng không nên loãng quá. Hoặc dùng trực tiếp cơm để nấu sẽ rút bớt được khá nhiều thời gian. Dùng tay đánh hoặc dùng máy xay cầm tay xay qua một chút cho cháo nhuyễn hơn (mình dùng máy xay sinh tố cầm tay). Cháo sẽ thơm ngon hơn khi nấu cùng nước luộc gà, nếu không có thì cho 1 chút bột nêm gà hoặc hạt nêm vào.</p>
@@ -165,7 +166,7 @@ let data = [
         <ol>
         <li>Nấm đùi gà rửa sạch dưới vòi nước, sau đó lau khô, chẻ làm 2-3 theo chiều dọc. Các loại rau thơm băm nhỏ ra, nếu mua gia vị khô thì không cần. Riêng lá hương thảo mùi khá nồng, các bạn tùy chỉnh theo sở thích nhé, như mình thì chỉ cần 1 xíu rắc lên như rắc muối là đủ thơm rồi.</li>
         <li>Tỏi dập dập, băm nhuyễn ra. Hòa tỏi, dầu oliu, muối, tiêu và rau thơm với nhau. Sau đó phết lên mỗi mặt nấm. Đợi khoảng 5-10 phút cho ngấm</li>
-        <li>Cho vào chảo hoặc bếp nướng, nướng ở lửa vừa cho đến khi nấm vàng đều 2 mặt. Để tăng thêm mùi thơm cho nấm có thể rán cùng với chút hành tây thái mỏng  <img src="Mind-X\Kitchies\img\namduiga2.jpg" alt=""></li>
+        <li>Cho vào chảo hoặc bếp nướng, nướng ở lửa vừa cho đến khi nấm vàng đều 2 mặt. Để tăng thêm mùi thơm cho nấm có thể rán cùng với chút hành tây thái mỏng  <img class="content-img" src="img/namduiga2.jpg" alt=""></li>
         <li>Ăn kèm thịt nướng, bò bít tết, cốt lết hay cá nướng đều ngon Có thể áp chảo chút cà chua ở lửa to, sau đó ăn kèm các loại rau khác như một món salad.</li>
         </ol>`,
     },
@@ -181,12 +182,12 @@ let data = [
         <li>Tiramisù Ý như mình tìm hiểu thì có xuất xứ từ vùng Treviso của Ý (chưa đến bao giờ), được làm từ 6 nguyên liệu chính cơ bản là cà phê Espresso, đường, lòng đỏ trứng gà, phô mai mascarpone, bánh Savoiardy (hay còn gọi là bánh lady finger, bánh sampa) và bột cacao không đường. Về sau xuất hiện phiên bản Tiramisu hiện đại gồm rượu hoặc lòng trắng trứng hoặc cả 2. Lòng trắng trứng giúp cho món Tiramisù trở nên lỏng và mềm hơn chút, trong khi nếu chỉ có lòng đỏ và phô mai mascarpone thì nó đặc và chắc hơn hẳn, giống như mình đang ăn bơ mềm ấy.</li>
         <li>Tiramisù Ý được làm bằng trứng sống, sau này vì sợ khuẩn Salmonella có trong trứng nên nhiều người mới thay bằng whipping cream (kem sữa béo, kem bông tuyết), ở Đức tạm thay bằng Schlagsahne nhiều fett (33%-36%). Với Tiramisù làm bằng whipping cream thì ăn sẽ đặc và kem hơn bánh làm với lòng trắng trứng ăn sẽ bông hơn. Riêng lòng đỏ thì đánh cách thủy nhưng không được phép chín quá. Trong bài mình sẽ sử dụng công thức làm với trứng sống. Trứng sống cần chọn loại tươi mới, có nguồn gốc rõ ràng, có thể đã được khử trùng diệt khuẩn nếu có, và <b>để ở nhiệt độ phòng. </b>Trứng gần hết hạn thì khuyến cáo không dùng.</li>
         <li>Cà phê chuyên dùng cho Tiramisù là cà phê Espresso, siêu đắng siêu đặc, và thường được nấu trong ấm Moka (xem hình dưới). Tuy nhiên không phải ai cũng có điều kiện để nấu được cốc cà phê Espresso hoàn hảo nên các bạn có thể chọn 2 cách: chạy ra cửa hàng bánh ngọt cà phê mua Espresso mang về hoặc mua cà phê hòa tan tự về nhà nấu. Với cà phê hòa tan nên chọn loại thật đậm đặc nhé, càng đắng thì bánh càng ngon. Ngọt đi đôi với đắng mới chuẩn hihi. Trong bài mình sử dụng cà phê hòa tan siêu đậm đặc mình mua sẵn ở siêu thị
-        <img src="img\tiramisu2.jpg" alt="">
+        <img class="content-img" src="img/tiramisu2.jpg" alt="">
         </li>
         <li>Với Tiramisù dùng rượu: Chọn rượu Masala hoặc Amaretto là hợp nhất. Ngoài ra có thể chọn Kahlua hay loại rượu Rum nào đó mà bạn thấy phù hợp. Việc cho rượu hay không là tùy chọn, nếu gia đình có trẻ nhỏ ăn hoặc không thích ăn đồ ăn có cồn thì bỏ qua, làm bản truyền thống cũng được. Riêng mình thì mình dùng tinh dầu rượu Rum cho dậy mùi thơm nhưng không có cồn (mua cả chai mình cũng hơi xót mà cũng thấy không cần thiết lắm hihi)</li>
         </ol>
         <p>Trong hình gồm: Cà phê đậm đặc hòa tan (mức 8/10), vị rất đắng (tuy không thơm bằng Espresso nhưng tạm chấp nhận được) &#8211; Tinh dầu rượu Rum hãng Dr.Oetker mình mua ở siêu thị Rewe, socola bào vụn (loại chuyên để rắc bánh hoặc làm bánh &#8211; tùy chọn) và bột cacao không đường. Tất cả các bạn có thể mua được ở siêu thị Rewe</p>
-        <p><img src="img\tiramisu3.jpg" alt="">   /></p>
+        <p><img class="content-img" src="img/tiramisu3.jpg" alt="">   /></p>
         <p>Dưới đây mình sẽ hướng dẫn các bạn làm công thức Tiramisù Ý theo 2 cách: cách truyền thống và cách hiện đại, tức là có lòng trắng trứng và không có lòng trắng trứng. Ngoài ra mình sẽ chú thích thêm nguyên liệu cũng như phương pháp thay thế dành cho những bạn ngại ăn trứng sống.</p>
         <p><b>NGUYÊN LIỆU:</b></p>
         <ul>
@@ -201,21 +202,22 @@ let data = [
         <li>socola đã cạo vụn (dùng rắc bánh &#8211; tùy chọn)</li>
         <li>1 cái rây nhỏ để rắc bột cacao</li>
         </ul>
-        <img src="tiramisu4.jpg" alt="">
-        <img src="img\tiramisu5.jpg" alt="">
+        <img class="content-img" src="img/tiramisu4.jpg" alt="">
+        <img class="content-img" src="img/tiramisu5.jpg" alt="">
         <p><b>CÁCH LÀM:</b></p>
         <ol>
         <li>Cà phê đun nóng sau đó để nguội rồi pha rượu vào. Chuẩn bị những nguyên liệu còn lại đầy đủ</li>
         <li>Cho lòng đỏ vào tô cùng một nửa số đường, dùng phới đánh tầm 8-10 phút đến khi trứng trở nên vàng nhạt và nở gấp đôi lượng ban đầu, khi nhấc phới lên thì hỗn hợp hơi keo keo tạo thành sợi.<br />
-        Với bạn nào sợ trứng sống thì bắc tô lên nồi, trong nồi có chút nước rồi tiến hành đánh cách thủy trên bếp. Lưu ý không nên để nồi hơi nóng quá khiến trứng bị chín quá. Sau đó bắc ra để nguội<img data-attachment-id="2014" data-permalink="https://mykitchies.com/20180504_2255561250562914/" data-orig-file="https://mykitchies.files.wordpress.com/2018/05/20180504_2255561250562914.jpg" data-orig-size="2160,2160" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="20180504_2255561250562914.jpg" data-image-description="" data-medium-file="https://mykitchies.files.wordpress.com/2018/05/20180504_2255561250562914.jpg?w=300" data-large-file="https://mykitchies.files.wordpress.com/2018/05/20180504_2255561250562914.jpg?w=736" class="alignnone size-full wp-image-2014" src="https://mykitchies.files.wordpress.com/2018/05/20180504_2255561250562914.jpg?w=736" alt="20180504_2255561250562914.jpg" srcset="https://mykitchies.files.wordpress.com/2018/05/20180504_2255561250562914.jpg?w=736 736w, https://mykitchies.files.wordpress.com/2018/05/20180504_2255561250562914.jpg?w=1472 1472w, https://mykitchies.files.wordpress.com/2018/05/20180504_2255561250562914.jpg?w=150 150w, https://mykitchies.files.wordpress.com/2018/05/20180504_2255561250562914.jpg?w=300 300w, https://mykitchies.files.wordpress.com/2018/05/20180504_2255561250562914.jpg?w=768 768w, https://mykitchies.files.wordpress.com/2018/05/20180504_2255561250562914.jpg?w=1024 1024w" sizes="(max-width: 736px) 100vw, 736px"   /></li>
+        Với bạn nào sợ trứng sống thì bắc tô lên nồi, trong nồi có chút nước rồi tiến hành đánh cách thủy trên bếp. Lưu ý không nên để nồi hơi nóng quá khiến trứng bị chín quá. Sau đó bắc ra để nguội<img class="content-img" src="img/tiramisu6.jpg"/></li>
         <li>Cho phô mai mascarpone vào hỗn hợp lòng đỏ, đánh đều để được hỗn hợp nhuyễn gọi là hỗn hợp kem mascarpone</li>
         <li>Cho lòng trắng vào tô riêng cùng với nửa số đường còn lại. Dùng máy đánh trứng đánh hỗn hợp sao cho đạt được chóp nhọn (soft peak). Lưu ý nên bắt đầu đánh từ số nhỏ trước rồi mới từ từ nâng lên số mạnh sau cùng, đề phòng trứng không lên bông được (mình đã bị 1 lần và lòng trắng đánh hoài vẫn lỏng chứ không thể bông nổi). Ngoài ra que đánh phải sạch sẽ và lòng trắng không dính lòng đỏ hay tạp chất khác<br />
         Với bạn nào sợ trứng sống thì làm tương tự với whipping cream nhé.</li>
-        <li>Chia hỗn hợp lòng trắng đã đánh bông thành khoảng 3-4 phần nhỏ, dùng thìa spatula múc từng phần cho vào hỗn hợp kem mascarpone, dùng kỹ thuật fold để trộn đều, tức là hất thìa từ dưới dáy lên và trộn theo 1 chiều. Làm lần lượt với toàn bộ lòng trắng đã đánh bông sao cho hỗn hợp cuối ta thu được trông mịn và không bị lợn cợn.<img data-attachment-id="2015" data-permalink="https://mykitchies.com/2018/05/08/banh-tiramisu-chuan-y/photo-1/" data-orig-file="https://mykitchies.files.wordpress.com/2018/05/photo-1.jpg" data-orig-size="640,640" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="photo (1)" data-image-description="" data-medium-file="https://mykitchies.files.wordpress.com/2018/05/photo-1.jpg?w=300" data-large-file="https://mykitchies.files.wordpress.com/2018/05/photo-1.jpg?w=640" class="alignnone size-full wp-image-2015" src="https://mykitchies.files.wordpress.com/2018/05/photo-1.jpg?w=736" alt="photo (1).jpg" srcset="https://mykitchies.files.wordpress.com/2018/05/photo-1.jpg 640w, https://mykitchies.files.wordpress.com/2018/05/photo-1.jpg?w=150 150w, https://mykitchies.files.wordpress.com/2018/05/photo-1.jpg?w=300 300w" sizes="(max-width: 640px) 100vw, 640px"   /></li>
+        <li>Chia hỗn hợp lòng trắng đã đánh bông thành khoảng 3-4 phần nhỏ, dùng thìa spatula múc từng phần cho vào hỗn hợp kem mascarpone, dùng kỹ thuật fold để trộn đều, tức là hất thìa từ dưới dáy lên và trộn theo 1 chiều. Làm lần lượt với toàn bộ lòng trắng đã đánh bông sao cho hỗn hợp cuối ta thu được trông mịn và không bị lợn cợn.
+        <img class="content-img" src="img/tiramisu7.jpg"/></li>
         <li>Nhúng bánh vào hỗn hợp cà phê khoảng 2 giây, không nên nhúng quá lâu khiến bánh bị nát và úng nước quá, thành phẩm bị ướt sẽ không còn ngon nữa. Xếp bánh vào khay, có thể bẻ bánh thành nhiều phần để chèn vào khoảng trống của khay. Sau đó múc hỗn hợp kem phủ lên, dùng thìa dàn đều. Sau đó lặp lại 1 lớp bánh và 1 lớp kem nữa.</li>
         <li>Để tủ lạnh ít nhất là 6 tiếng, lý tưởng nhất là để qua đêm. Lúc đó bánh đã đông lại và ngấm hoàn toàn. Bánh Tiramisu có thể để được trong tủ lạnh khoảng 1 tuần và để đông ở nhiệt độ 0 độ F khoảng 1 năm 🙂</li>
         <li>Rắc bột cacao lên bánh, sử dụng rây để bột được tán đều và mịn hơn. Rắc thêm vụn socola bào nếu thích. Với ý kiến cá nhân mình thì ăn miếng nào rắc cacao miếng đấy. Nếu rắc cả khay mà chưa ăn hết thì 1 lúc sau cacao sẽ bị ướt và nứt mặt trên bánh.
-        <p><figure data-shortcode="caption" id="attachment_2016" aria-describedby="caption-attachment-2016" style="width: 2880px" class="wp-caption alignnone"><img data-attachment-id="2016" data-permalink="https://mykitchies.com/2018-05-05-12-13-202111556063/" data-orig-file="https://mykitchies.files.wordpress.com/2018/05/2018-05-05-12-13-202111556063.jpg" data-orig-size="2880,2160" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2018-05-05-12-13-202111556063.jpg" data-image-description="" data-medium-file="https://mykitchies.files.wordpress.com/2018/05/2018-05-05-12-13-202111556063.jpg?w=300" data-large-file="https://mykitchies.files.wordpress.com/2018/05/2018-05-05-12-13-202111556063.jpg?w=736" class="alignnone size-full wp-image-2016" src="https://mykitchies.files.wordpress.com/2018/05/2018-05-05-12-13-202111556063.jpg?w=736" alt="2018-05-05-12-13-202111556063.jpg" srcset="https://mykitchies.files.wordpress.com/2018/05/2018-05-05-12-13-202111556063.jpg?w=736 736w, https://mykitchies.files.wordpress.com/2018/05/2018-05-05-12-13-202111556063.jpg?w=1472 1472w, https://mykitchies.files.wordpress.com/2018/05/2018-05-05-12-13-202111556063.jpg?w=150 150w, https://mykitchies.files.wordpress.com/2018/05/2018-05-05-12-13-202111556063.jpg?w=300 300w, https://mykitchies.files.wordpress.com/2018/05/2018-05-05-12-13-202111556063.jpg?w=768 768w, https://mykitchies.files.wordpress.com/2018/05/2018-05-05-12-13-202111556063.jpg?w=1024 1024w" sizes="(max-width: 736px) 100vw, 736px"   /><figcaption id="caption-attachment-2016" class="wp-caption-text">:)) nham nhở tí nhưng mà ngon lắm nhé</figcaption></figure></li>
+        <p><img class="content-img" src="img/tiramisu8.jpg"/>:)) nham nhở tí nhưng mà ngon lắm nhé</li>
         </ol>
         <p><b>Một vài lưu ý:</b></p>
         <ol>
@@ -224,7 +226,7 @@ let data = [
         <li>Không nên cho gelatine vào bánh sẽ phá hỏng đi chất liệu của bánh. Ý kiến của mình là vậy. Một số cửa hàng bánh bình dân mình ăn thử, họ có cho gelatine vào bánh để bánh đứng được tốt hơn và dễ cắt thành miếng để đóng gói hơn, tuy nhiên ăn rất tệ. Trong khi những nhà hàng Ý mình ăn thì thà họ bánh mềm xiên xẹo còn hơn là cho gelatine.</li>
         <li>Nếu làm theo cách tiramisù truyền thống thì bỏ qua khâu 4 và 5, cũng không dùng rượu nhé.</li>
         <li>Bánh Tiramisù Ý vốn dĩ rất mềm nên khâu múc bánh ra đôi lúc khó khăn vì nó dễ xiên xẹo lắm. Một số nơi mình ăn họ hay cho bánh vào từng cốc riêng rồi dùng thìa xúc. Nếu bạn nào muốn làm trong cốc thì nhúng bánh Sampa xong nhớ bẻ vụn nhỏ ra rồi xếp vào ly là được 🙂
-        <p><figure data-shortcode="caption" id="attachment_2017" aria-describedby="caption-attachment-2017" style="width: 2880px" class="wp-caption alignnone"><img data-attachment-id="2017" data-permalink="https://mykitchies.com/2018-05-05-12-13-011457772481/" data-orig-file="https://mykitchies.files.wordpress.com/2018/05/2018-05-05-12-13-011457772481.jpg" data-orig-size="2880,2160" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2018-05-05-12-13-011457772481.jpg" data-image-description="" data-medium-file="https://mykitchies.files.wordpress.com/2018/05/2018-05-05-12-13-011457772481.jpg?w=300" data-large-file="https://mykitchies.files.wordpress.com/2018/05/2018-05-05-12-13-011457772481.jpg?w=736" class="alignnone size-full wp-image-2017" src="https://mykitchies.files.wordpress.com/2018/05/2018-05-05-12-13-011457772481.jpg?w=736" alt="2018-05-05-12-13-011457772481.jpg" srcset="https://mykitchies.files.wordpress.com/2018/05/2018-05-05-12-13-011457772481.jpg?w=736 736w, https://mykitchies.files.wordpress.com/2018/05/2018-05-05-12-13-011457772481.jpg?w=1472 1472w, https://mykitchies.files.wordpress.com/2018/05/2018-05-05-12-13-011457772481.jpg?w=150 150w, https://mykitchies.files.wordpress.com/2018/05/2018-05-05-12-13-011457772481.jpg?w=300 300w, https://mykitchies.files.wordpress.com/2018/05/2018-05-05-12-13-011457772481.jpg?w=768 768w, https://mykitchies.files.wordpress.com/2018/05/2018-05-05-12-13-011457772481.jpg?w=1024 1024w" sizes="(max-width: 736px) 100vw, 736px"   /><figcaption id="caption-attachment-2017" class="wp-caption-text">mình lấy ẩu nên bánh có phần xiên xẹo 😛 cơ mà rất đắt hàng</figcaption></figure></li>
+        <p><img class="content-img" src="img/tiramisu9.jpg"><figcaption id="caption-attachment-2017" class="wp-caption-text">mình lấy ẩu nên bánh có phần xiên xẹo 😛 cơ mà rất đắt hàng</figcaption></figure></li>
         </ol>
         <p>Chúc các bạn thành công với món Tiramisù Ý nhé 🙂 Để theo dõi bài viết mới các bạn có thể ghé thăm Facebook Mykitchies &#8211; Bếp Á Âu của mình</p>`,
     },
@@ -237,6 +239,7 @@ let data = [
         content: ``,
     },
     {
+        id: 7,
         nameFood:'Cheesecake xoài không cần lò nướng ',
         type: 'Món Âu',
         img: 'img/cheesecake1.jpg',
@@ -244,7 +247,7 @@ let data = [
         content: ``,
     },
     {
-        id: 7,
+        id: 8,
         nameFood:'Cách làm tương XO (sốt sò điệp HongKong)- homemade Hongkong XO sauce',
         type:'Món Á',
         img:'img/sodiep1.jpg',
@@ -252,7 +255,7 @@ let data = [
         content:`
         <p>Tương XO là một loại sốt được làm chủ yếu từ hải sản khô có xuất xứ từ Hongkong, khá phổ biến trong ẩm thực Quảng Đông, được dùng để làm sốt chấm dumpling, các món xào nấu, cho vào ăn cùng cơm hay mì hoặc cho vào cơm rang để tăng thêm hương vị món ăn. Cái tên XO bắt nguồn từ loại rượu Cognac XO nổi tiếng của Pháp vì màu của chúng gần gần giống nhau, ngoài ra XO ở đây ám chỉ thứ gì đó chất lượng cao và mang tính sang trọng. Tương XO có vị cay, mặn vừa phải, hơi ngọt, thơm mùi hải sản khô và hành tỏi phi, tạo nên hương vị umami đặc biệt.</p>
             <p>Thành phần chính có trong tương XO chủ yếu là tôm khô, cồi sò điệp khô và giăm bông muối treo khô Kim Hoa của tỉnh Triết Giang, Trung Quốc (Jinhua ham). Chính vì nguyên liệu khá đắt tiền nên tương XO cũng có giá khá cao so với các loại sốt khác trên thị trường. Nguyên liệu càng hịn thì thành phẩm càng ngon và giá thành cũng càng cao. Cồi sò điệp thì cồi càng to dày càng đắt tiền, cồi xuất xứ từ Nhật Bản sẽ thơm và ngọt thịt hơn cồi xuất xứ từ Trung Quốc. Giăm bông muối Jinhua trải qua quá trình ướp muối và phơi khô ở nơi tối và nhiệt độ thấp ổn định trong thời gian 9-10 tháng. Do điều kiện eo hẹp nên mình đành mua cồi sò điệp tươi đông đá về sấy khô và sử dụng Giăm bông Serrano của Tây Ban Nha để thay thế, tuy vậy thành phẩm cuối cùng mình tương đối hài lòng vì nó hơi bị thơm 😀</p>
-            <img src="img\sodiep2.jpg" alt="">
+            <img class="content-img" src="img/sodiep2.jpg" alt="">
             <strong>NGUYÊN LIỆU:</strong>
             <ul>
                 <li>150gr cồi sò điệp khô ( hoặc 450gr cồi sò điệp tươi tự sấy)</li>
@@ -278,11 +281,11 @@ let data = [
             <p>1.Cồi sò điệp tươi ướp muối khoảng 30 phút, sau đó hấp qua cho chín rồi đem sấy ở 70-80 độ khoảng 3 tiếng. Các bạn có thể sấy ở 100 độ để rút ngắn thời gian. Vì là nhà làm nên mình sấy ở mức cứng khô vừa phải, sau đó phơi thoáng ở nhiệt độ phòng thêm 1 2 hôm cho khô hẳn. Rồi mình bỏ ngăn mát dùng trong vòng 1 tuần. Nếu muốn để được lâu hơn mình nghĩ các bạn nên sấy kỹ hơn như ngoài hàng bán. Ở Việt Nam các bạn có thể tìm mua cồi sò điệp khô ở trên mạng (mình có tìm thấy khá nhiều nơi bán).</p>
             <p>2.Cồi sò điệp khô và tôm khô cho vào 2 bát riêng, pha mỗi bát 1 thìa ăn rượu Thiệu Hưng (hoặc rượu nếp) và đổ nước xâm xấp mặt. Ngâm khoảng 2 tiếng cho mềm. Sau đó tôm rửa qua cho sạch đất cát rồi băm thật nhuyễn, cồi sò điệp dùng tay bóp rồi xé sợi thật nhỏ.</p>
             <p>3.Thịt giăm bông đem thái hạt lựu thật nhỏ (mình mua ít nên mua gói đã thái lát tuy nhiên khuyến khích mua cả miếng chưa cắt về tự cắt sẽ hay hơn), cho vào đĩa hấp khoảng 15 phút rồi giữ lại nước chảy ra. Cồi sò điệp sau khi xé cho vào bát hấp khoảng 45 phút, rồi giữ lại nước chảy ra trong bát để sau đó pha chung với nước dùng gà.</p>
-            <img src="Kitchies\img\sodiep3.jpg" alt="">
+            <img class="content-img" src="img/sodiep3.jpg" alt="">
             <p>4.Tỏi với hành khô băm nhỏ. Riêng hành mình khuyên nên dùng máy xay qua để đỡ phải sướt mướt và siêu tiết kiệm thời gian. Ớt thái nhỏ.</p>
             <p>5.Đun nóng dầu sôi cỡ 150 độ, hoặc châm que đũa vào thấy bong bóng li ti nổi thì thả tỏi vào phi vàng, sau đó dùng muôi lưới vớt ra tô để riêng, tiếp đó làm tương tự với hành. Cẩn thận quá tay hành tỏi chuyển màu nâu đen nhé.</p>
             <p>6.Sau khi vớt hành thì đợi dầu nóng cho cồi sò điệp vào phi vàng rồi vớt ra, tiếp đến cho thịt giăm bông vào phi một chút rồi vớt ra. Tiếp đến cho tôm khô vào chiên tầm 30s thì cho ớt cay đã xắt nhỏ vào phi, sau đó cho toàn bộ nguyên liệu đã phi từ trước vào chảo, cho ớt bột tạo màu và hương thơm, cho nước mắm, dầu hào, muối, đường, 2 thìa ăn rượu còn lại cùng nước dùng gà và nước hấp thịt chảy ra. Hạ lửa rồi đảo đều khoảng 2 phút cho chúng hòa quyện vào nhau rồi tắt bếp. Để nguội rồi múc vào lọ đóng kín, để khoảng 2-3 ngày cho thành phẩm trở nên thơm ngon hơn.</p>
-            <img src="img\sodiep4.jpg" alt="">
+            <img class="content-img" src="img/sodiep4.jpg" alt="">
             <p>7.Bảo quản ngăn mát nếu đúng cách sẽ được tầm 3 tháng tới 1 năm, yêu cầu dầu ngập che phủ nguyên liệu sốt để giữ được lâu và không bị khô.</p>
             <p>Chúc các bạn thành công với món sò điệp nhé!</p>`,
     
@@ -381,32 +384,32 @@ let data = [
             <li>1 thìa cafe trần bì (vỏ quýt khô – bán ở tiệm thuốc Bắc)</li>
             <li>1/2 thìa cafe tiêu hạt</li>
         </ul>
-        <img src="Kitchies\img\banhtrungthu2.jpg" alt="">
+        <img class="content-img" src="img/banhtrungthu2.jpg" alt="">
                     <p>Nhân bánh</p>
-        <img src="Kitchies\img\banhtrungthu3.jpg" alt="">
+        <img class="content-img" src="img/banhtrungthu3.jpg" alt="">
             <p>Thành phần sau khi nướng xong, nước đường của mình còn mới nên hơi nhạt</p>
-        <img src="Kitchies\img\banhtrungthu4.jpg" alt="">
+        <img class="content-img" src="img/banhtrungthu4.jpg" alt="">
             <p>Cho lòng trắng trứng vào hỗn hợp phết giúp mặt bánh bóng hơn</p>
         
         <strong>CÁCH LÀM:</strong>
         <p>1.Làm mỡ đường: mỡ gáy thái miếng to bản, làm sạch thịt bám, lột da, cho vào nồi nước lạnh luộc tới khi sôi rồi để tầm 1 phút xong đổ nước đó đi, rửa qua mỡ cho sạch. Sau đó cho vào nồi nước cùng hồi quế, đun tới khi sôi rồi để lửa vừa tầm 3 phút, thấy mỡ chín hết thì tắt bếp (không đun quá lâu, vừa chín là dừng). Nhúng mỡ vào nước lạnh một lúc cho nguội, vớt ra để ráo rồi thái hạt lựu (đúng cỡ hạt lựu, to quá nhân bị rời, nhỏ quá ăn không có cảm giác). Cho đường vào bóp đều tầm 2 phút cho đường ngấm, để nơi thoáng mát 1 ngày (mình để trong bếp) tới khi mỡ giòn và mất mùi hôi mỡ, lâu lâu đảo đều. Khi nào mỡ giòn thì đóng túi bảo quản ngăn mát dùng trong vài ngày, dùng lâu trữ đông. Nếu muốn mỡ trong thì bạn sấy 100 độ tầm 10-15 phút cho đường chảy bớt rồi vớt mỡ ra, bỏ bớt đường.</p>
         <p>2.Làm mứt gừng đỏ: gừng non (gừng già bị xơ và cay) cạo vỏ rửa sạch, thái thật mỏng rồi ngâm vào nước bóp nhiều lần cho gừng ra nước vàng. Sau đó đem luộc 3 lần, lần 1 cho muối vào, đun sôi tầm 2-3 phút rồi đổ ra rổ, bóp hết nước rồi lại luộc tiếp. Các lần sau làm tương tự nhưng không cần cho muối. Sau 3 lần luộc, vắt gừng kỹ, xong áo đường và phẩm, để tầm 1 tiếng rồi đem ra sên ở lửa nhỏ vừa tới khi nước đường quánh lại. Đóng hũ xài dần.</p>
-        <img src="Kitchies\img\banhtrungthu5.jpg" alt="">
+        <img class="content-img" src="img/banhtrungthu5.jpg" alt="">
         <p>3.Làm mứt sen: Sen khô ngâm qua đêm cho nở mềm, đem ninh lửa nhỏ tầm 30-45 phút xong đem ra ngâm nước lạnh cho săn. Sau đó áo đường ướp tầm 2 tiếng. Tiếp đó đem lên chảo sên lửa vừa tới khi đường sủi màng bọt trắng bám quanh vành chảo thì hạ lửa nhỏ sên tiếp tới khi đường kết tinh, ta thu được hạt sen còn đường vụn thì đổ đi.</p>
-        <img src="Kitchies\img\banhtrungthu6.jpg" alt="">
+        <img class="content-img" src="img/banhtrungthu6.jpg" alt="">
         <p>4.Làm thịt lạp: Thịt lạp mua về thái miếng mỏng cỡ 0.5cm, ướp xì dầu, muối và rượu qua đêm rồi phơi ở ngoài trời nắng to khoảng 2 hôm (tối đem vào ngăn mát tủ lạnh cất) cho tới khi thịt khô, hoặc dùng lò sấy 75-100 độ sấy tầm 2-3 tiếng cho thịt khô se lại còn bên trong vẫn mềm. Sau đó dùng tay xé mỏng, giã nát bớt, ướp với đường và dầu hào tầm 1 tiếng, sau đó cho lên chảo sên qua, dùng máy đánh bông như chà bông. Mình lỡ mua thịt thái sẵn ở siêu thị nên trong ảnh thịt của mình không bông mà đứt tùm lum :P, thôi kệ, miễn vị ổn, đằng nào chả vào mồm. Miễn là thịt không quá to sẽ làm nhân bị rời rạc. Các bạn có thể thay bằng ức gà, dùng miếng ức cắt mỏng làm 2 hoặc 3 miếng rồi ướp như trên và sấy qua, sau đó xé sợi nhỏ, ướp và đem lên chảo đảo tới khi khô vừa phải (không quá mềm mà cũng không cần khô quá lúc ăn sẽ bị dai).</p>
         <p>5.Làm rượu MQL: các thành phần đem rang nhỏ lửa tới khi thơm, để nguội rồi cho vào rượu ngâm, để rượu ở góc tối ít nhất 2 tuần là dùng được. Có thể dùng túi lọc đựng gia vị ngâm hoặc là ngâm xong dùng rây rồi chắt ra để rượu vào chai xài dần.</p>
         <p>6.Làm vỏ bánh: Trộn đều nước đường, dầu ăn, lòng đỏ trứng, bơ đậu phộng. Sau đó đổ vào hỗn hợp bột. Ban đầu dùng spatula hoặc thìa trộn đều, sau đó mới dùng tay bóp (không nhồi), tầm 2-3 phút tới khi hỗn hợp bột đã đều (không còn thấy màu trắng) thì ngừng. Bột lúc này nhìn bở bở như cục bột làm bánh quy nhưng không mịn như bột làm bánh bao (nếu giống bánh bao là xác định chai bột nhá). Ủ tầm 1-2 tiếng, bọc kín lại là được.</p>
         <p>7.Nhân bánh: hạt mè, hạt điều, hạt bí rang thơm giòn rồi dùng dao băm nhỏ ra, hạt sen thái nhỏ, mứt bí và lạp xưởng xắt hạt lựu, lá chanh thái mỏng sợi chỉ. Mứt gừng xắt nhỏ. Nhân nhỏ thì không bị rời rạc khi vo nhân, tuy nhiên đừng vụn quá ăn chả cảm nhận được gì.</p>
         <p>8.Trộn hỗn hợp nhân với nhau (trừ bột bánh dẻo và lá chanh). Hỗn hợp nước sốt pha sẵn để riêng. Cho 1 chút sốt trộn vào nhân, dùng găng tay sạch bóp đều, rắc 1 ít bột bánh dẻo vào trộn, tiếp đó cho sốt trộn, rồi lại bột, cứ làm vậy tới khi hết bột và nước sốt (mình làm khoảng 3 lần). Sau đó bắc chảo lên xào qua 1 chút ở lửa vừa cho nóng nhân rồi lại tắt bếp, cho lá chanh rồi cho nhân ra trộn tiếp cho quánh dẻo. Rồi dùng cân tiểu ly đong 90gr 1 nhân. Phủ màng thực phẩm lên cho nhân không bị khô.</p>
-        <img src="Kitchies\img\banhtrungthu7.jpg" alt="">
+        <img class="content-img" src="img/banhtrungthu7.jpg" alt="">
         <p>9.Vỏ bánh sau khi ủ đem ra đong mỗi vỏ 60gr, cũng phủ màng thực phẩm lên cho vỏ không bị</p>
-        <img src="Kitchies\img\banhtrungthu8.jpg" alt="">
+        <img class="content-img" src="img/banhtrungthu8.jpg" alt="">
         <p>10.Đóng bánh: cho 1 chút bột vào khuôn thoa đều, xong vỗ cho bột ra hết (kiểm tra kỹ những lỗ nhỏ của khuôn để đảm bảo không có bột dính vào). Vỏ bánh cán tròn đường kính khoảng 10cm (nếu vành bánh có nứt cũng không sao nhé), sau đó cho nhân vào giữa, úp ngược lại rồi dùng 2 ngón tay vuốt dần cho vỏ bám vào nhân, rồi lật lại làm tiếp, miết nhẹ cho vỏ phủ kín nhân. Lưu ý không để khí lọt bánh thì nướng sẽ bị phồng chân bánh. Thoa lớp bột mỏng áo lên cục bột đã bọc nhân, cho vào khuôn, dùng má tay ấn nhẹ bột cho nó dính định hình vào khuôn rồi cho khuôn lên mặt bàn nhấn 1 lực vuông góc với mặt bàn, tay kia giữ khuôn cho chắc, giữ tầm 5s thì nhấc khuôn ra khay nướng bánh đã lót giấy nến sẵn, nhả bánh ngay trên khay nướng luôn, để tránh dùng tay cầm bánh xê dịch sẽ méo mó bánh.</p>
         <p>11.Hỗn hợp phết bánh đánh đều, lọc qua rây. Dùng cọ trang điểm loại to dẹt sẽ dễ quét hơn (đại khái là chổi lông).</p>
         <p>12.Bật lò trước ở 190-200 độ. Nướng bánh lần 1 khoảng 10-15 phút tùy kích cỡ bánh và lò nướng. Lần 1 yêu cầu bánh chín hoàn toàn, mặt đáy bánh vàng, thân bánh trắng đục hoàn toàn. Không nhất thiết phải đúng i như thời gian nướng mình đưa ra mà bạn tự cảm nhận và căn chỉnh. Để rãnh giữa (lò mình 4 rãnh).</p>
         <p>13.Bánh để 2-3 ngày ăn mới ngon nhé cả nhà, lần đầu mới làm hí hửng hấp tấp cắt thử thì cảm giác ăn ko được ngon vì nhân còn dẻo, nồng. Sau 2 hôm cảm giác vị rất vừa miệng và nhân chắc hơn.</p>
-        <img src="Kitchies\img\banhtrungthu9.jpg" alt="">
+        <img class="content-img" src="img/banhtrungthu9.jpg" alt="">
         <p>Chúc các bạn thành công khi làm bánh Trung Thu</p>`,
     } ,
 
@@ -442,7 +445,7 @@ let data = [
             <li>1/2 thìa cafe muối</li>
             <li>2-3 lá chanh thái mỏng (tùy chọn)</li>
         </ul>
-        <img src="Kitchies\img\changa2.jpg" alt="">
+        <img class="content-img" src="img/changa2.jpg" alt="">
         <strong>CÁCH LÀM:</strong>
         <p>1.Chân gà rửa sạch, chặt móng và chặt khúc nhỏ vừa ăn. Luộc chân gà cùng sả đập dập và lá chanh. Cho chân gà vào và đun sôi, nước sôi đậy vung để nhỏ lửa khoảng 30 phút cho gà mềm hẳn kể cả sau khi để tủ mát.</p>
         <p>2.Vớt gà ra cho vào thau nước thật lạnh, hoặc xả gà với nước lạnh rồi để tủ đá khoảng 15 phút.</p>
