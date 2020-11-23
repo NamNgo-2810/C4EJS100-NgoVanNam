@@ -1,8 +1,9 @@
 let data = [
     {
+        id: 1,
         nameFood: 'Chà bông rong biển Đài Loan (taiwan pork floss)',
         type: 'Món Á',
-        img: "Kitchies/img/chabong1.jpg",
+        img: "img/chabong1.jpg",
         intro: `<p>Chà bông Đài Loan có màu vàng sẫm bắt mắt, tơi và vụn gần như ruốc cá, dễ nhận biết vì khác với màu và hình dáng sợi chà bông Việt. Một số còn có rong biển và vừng đi kèm. Dưới đây mình sẽ giới thiệu cách làm chà bông của người Hoa (pinyin gọi là rou song), gia vị các bạn có thể biến tấu theo sở thích (có người thích mặn ngọt, có người thích cay…), còn công thức này là công thức phổ biến nhất vì gia vị rất cơ bản và mình thấy khá nhiều người sử dụng.</p>`,
         content: `
         <p>Chà bông Đài Loan có màu vàng sẫm bắt mắt, tơi và vụn gần như ruốc cá, dễ nhận biết vì khác với màu và hình dáng sợi chà bông Việt. Một số còn có rong biển và vừng đi kèm. Dưới đây mình sẽ giới thiệu cách làm chà bông của người Hoa (pinyin gọi là rou song), gia vị các bạn có thể biến tấu theo sở thích (có người thích mặn ngọt, có người thích cay…), còn công thức này là công thức phổ biến nhất vì gia vị rất cơ bản và mình thấy khá nhiều người sử dụng.</p>
@@ -32,7 +33,7 @@ let data = [
             <li>2-3 thìa cafe đường</li>
             <li>1/2 thìa cafe ngũ vị hương (tùy chọn)</li>
             <li>1,5-2 thìa ăn hắc xì dầu (mình dùng Lee Kum Kee)-để tạo màu như hình</li>
-            <img src="Kitchies\img\chabong5.jpg" alt="">
+            <img src="img\chabong5.jpg" alt="">
             <strong>CÁCH LÀM:</strong>
             <p>1.Thịt lợn các bạn lược bỏ phần mỡ bám, sau đó thái thành miếng hộp diêm. Tiến hành đun sôi rồi hớt bọt, hạ lửa và cho vào nồi quế, hồi, thảo quả, rượu, hành và gừng, đậy vung nấu khoảng 40 phút tới khi chọc đũa với lực không quá mạnh thấy đâm được thịt thì tắt bếp, cho ra rổ rửa sạch với nước lạnh rồi để ráo. Thịt không nên dai quá, khó xé và khó bông. Thịt mềm vừa chín tới, không quá nhũn mềm như thịt đông là được.</p>
             <p>2.Cho thịt vào túi ziplock dùng chày cối hoặc vật nặng đập nhẹ cho thịt tơi ra (không dằn mạnh sẽ nát thịt).</p>
@@ -48,9 +49,10 @@ let data = [
     },
 
     {
+        id: 2,
         nameFood:'Thịt kho Tô Đông Pha - Braised pork belly Dong Po Rou',
         type:'Món Á',
-        img:'Kitchies/img/thitkho1.jpg',
+        img:'img/thitkho1.jpg',
         intro: `<p>Thịt kho Đông Pha (东坡肉) là một món ăn truyền thống của Hàng Châu, Trung Quốc được làm từ thịt ba chỉ, được đặt tên theo ông Tô Thức hay còn có hiệu là Tô Đông Pha (08/01/1037-24/08/1101). Ông là nhà văn, nhà thơ, họa sỹ, nhà thư pháp nổi tiếng Trung Quốc vào thời Tống. Ông được mệnh danh là một trong Bát đại gia Đường Tống (nguồn: Wikipedia). Trải qua nhiều thế kỷ, món thịt kho Đông Pha trở nên nổi tiếng khắp nơi vì hương vị thơm ngon, mềm mại và béo ngậy của nó.</p>`,
         content:`
         <p>Thịt kho Đông Pha (东坡肉) là một món ăn truyền thống của Hàng Châu, Trung Quốc được làm từ thịt ba chỉ, được đặt tên theo ông Tô Thức hay còn có hiệu là Tô Đông Pha (08/01/1037-24/08/1101). Ông là nhà văn, nhà thơ, họa sỹ, nhà thư pháp nổi tiếng Trung Quốc vào thời Tống. Ông được mệnh danh là một trong Bát đại gia Đường Tống (nguồn: Wikipedia). Trải qua nhiều thế kỷ, món thịt kho Đông Pha trở nên nổi tiếng khắp nơi vì hương vị thơm ngon, mềm mại và béo ngậy của nó.</p>
@@ -82,9 +84,10 @@ let data = [
     },
 
     {
+        id: 3,
         nameFood:'Cháo ếch Singapore - Forg leg porrideg',
         type:'Món Á',
-        img:'Kitchies/img/chaoech1.jpg',
+        img:'img/chaoech1.jpg',
         intro: `<p>Mình mua được bịch đùi ếch đông lạnh nên nảy sinh ra ý tưởng là sẽ nấu món cháo ếch Singapore. Tiếc là cái đùi hơi bé nên không được dày thịt như ếch ở quê nhà, lại chỉ có mỗi cái đùi. Mình đem nấu cháo một nửa còn một nửa để dành bữa nào làm ếch chiên xù.</p>`,
         content:`
         <p>Mình mua được bịch đùi ếch đông lạnh nên nảy sinh ra ý tưởng là sẽ nấu món cháo ếch Singapore. Tiếc là cái đùi hơi bé nên không được dày thịt như ếch ở quê nhà, lại chỉ có mỗi cái đùi. Mình đem nấu cháo một nửa còn một nửa để dành bữa nào làm ếch chiên xù.</p>
@@ -135,9 +138,10 @@ let data = [
     },
 
     {
+        id: 4,
         nameFood:'Nấm đùi gà áp chảo kiểu Âu ',
         type: 'Món Âu',
-        img: 'Mind-X\Kitchies\img\namduiga1.jpg',
+        img: 'img/namduiga1.jpg',
         intro: `
         <p>Với cảm nhận riêng của mình thì mình vẫn thích kiểu Nhật hơn, chắc vì mình là người châu Á, mặc dù cả 2 kiểu kiểu nào cũng có sự thơm ngon đặc trưng </p>
         <p>Dưới đây là một trong những công thức đơn giản và phổ biến để chế biến nấm áp chảo (có thể nướng) theo phong cách Âu, bổ sung vào từ điển nội trợ của chúng ta.</p>`,
@@ -166,9 +170,10 @@ let data = [
         </ol>`,
     },
     {
+        id: 5,
         nameFood:' Bánh Tiramisù chuẩn Ý – Tiramisu recipe',
         type: 'Món Âu',
-        img: 'Mind-X\Kitchies\img\tiramisu1.jpg',
+        img: 'img/tiramisu1.jpg',
         intro: `<p>Sau một vài tuần vắng bóng do bận học hành đi làm lẫn ba chuyện linh tinh mệt người thì mình cũng đã sắp xếp để quay lại với blog thân yêu. Mình chủ yếu hay nấu đồ mặn hơn vì nó thiết thực (chống đói) và phù hợp với hoàn cảnh (bếp núc). Ngó đi ngó lại thì thấy bánh Tiramisu Ý làm nhanh gọn, đơn giản và dễ ăn nên mình quyết định làm lại để còn nhanh chia sẻ với mọi người (thực ra trước đó mình có làm nhưng mà chưa ghi lại bài bản vì hồi đó chưa có viết lách gì hết). Các bạn yên tâm đi mình đã test thử bao nhiêu chuột bạch rồi và ai cũng khen ngon hết nhé, món này làm không hề khó nhưng quan trọng làm phải có tâm nha 😀</p>`,
         content: `<p>Sau một vài tuần vắng bóng do bận học hành đi làm lẫn ba chuyện linh tinh mệt người thì mình cũng đã sắp xếp để quay lại với blog thân yêu. Mình chủ yếu hay nấu đồ mặn hơn vì nó thiết thực (chống đói) và phù hợp với hoàn cảnh (bếp núc). Ngó đi ngó lại thì thấy bánh Tiramisu Ý làm nhanh gọn, đơn giản và dễ ăn nên mình quyết định làm lại để còn nhanh chia sẻ với mọi người (thực ra trước đó mình có làm nhưng mà chưa ghi lại bài bản vì hồi đó chưa có viết lách gì hết). Các bạn yên tâm đi mình đã test thử bao nhiêu chuột bạch rồi và ai cũng khen ngon hết nhé, món này làm không hề khó nhưng quan trọng làm phải có tâm nha 😀</p>
         <p>Một vài điều về bánh Tiramisu nổi tiếng của nước Ý:</p>
@@ -176,12 +181,12 @@ let data = [
         <li>Tiramisù Ý như mình tìm hiểu thì có xuất xứ từ vùng Treviso của Ý (chưa đến bao giờ), được làm từ 6 nguyên liệu chính cơ bản là cà phê Espresso, đường, lòng đỏ trứng gà, phô mai mascarpone, bánh Savoiardy (hay còn gọi là bánh lady finger, bánh sampa) và bột cacao không đường. Về sau xuất hiện phiên bản Tiramisu hiện đại gồm rượu hoặc lòng trắng trứng hoặc cả 2. Lòng trắng trứng giúp cho món Tiramisù trở nên lỏng và mềm hơn chút, trong khi nếu chỉ có lòng đỏ và phô mai mascarpone thì nó đặc và chắc hơn hẳn, giống như mình đang ăn bơ mềm ấy.</li>
         <li>Tiramisù Ý được làm bằng trứng sống, sau này vì sợ khuẩn Salmonella có trong trứng nên nhiều người mới thay bằng whipping cream (kem sữa béo, kem bông tuyết), ở Đức tạm thay bằng Schlagsahne nhiều fett (33%-36%). Với Tiramisù làm bằng whipping cream thì ăn sẽ đặc và kem hơn bánh làm với lòng trắng trứng ăn sẽ bông hơn. Riêng lòng đỏ thì đánh cách thủy nhưng không được phép chín quá. Trong bài mình sẽ sử dụng công thức làm với trứng sống. Trứng sống cần chọn loại tươi mới, có nguồn gốc rõ ràng, có thể đã được khử trùng diệt khuẩn nếu có, và <b>để ở nhiệt độ phòng. </b>Trứng gần hết hạn thì khuyến cáo không dùng.</li>
         <li>Cà phê chuyên dùng cho Tiramisù là cà phê Espresso, siêu đắng siêu đặc, và thường được nấu trong ấm Moka (xem hình dưới). Tuy nhiên không phải ai cũng có điều kiện để nấu được cốc cà phê Espresso hoàn hảo nên các bạn có thể chọn 2 cách: chạy ra cửa hàng bánh ngọt cà phê mua Espresso mang về hoặc mua cà phê hòa tan tự về nhà nấu. Với cà phê hòa tan nên chọn loại thật đậm đặc nhé, càng đắng thì bánh càng ngon. Ngọt đi đôi với đắng mới chuẩn hihi. Trong bài mình sử dụng cà phê hòa tan siêu đậm đặc mình mua sẵn ở siêu thị
-        <img src="Mind-X\Kitchies\img\tiramisu2.jpg" alt="">
+        <img src="img\tiramisu2.jpg" alt="">
         </li>
         <li>Với Tiramisù dùng rượu: Chọn rượu Masala hoặc Amaretto là hợp nhất. Ngoài ra có thể chọn Kahlua hay loại rượu Rum nào đó mà bạn thấy phù hợp. Việc cho rượu hay không là tùy chọn, nếu gia đình có trẻ nhỏ ăn hoặc không thích ăn đồ ăn có cồn thì bỏ qua, làm bản truyền thống cũng được. Riêng mình thì mình dùng tinh dầu rượu Rum cho dậy mùi thơm nhưng không có cồn (mua cả chai mình cũng hơi xót mà cũng thấy không cần thiết lắm hihi)</li>
         </ol>
         <p>Trong hình gồm: Cà phê đậm đặc hòa tan (mức 8/10), vị rất đắng (tuy không thơm bằng Espresso nhưng tạm chấp nhận được) &#8211; Tinh dầu rượu Rum hãng Dr.Oetker mình mua ở siêu thị Rewe, socola bào vụn (loại chuyên để rắc bánh hoặc làm bánh &#8211; tùy chọn) và bột cacao không đường. Tất cả các bạn có thể mua được ở siêu thị Rewe</p>
-        <p><img src="Mind-X\Kitchies\img\tiramisu3.jpg" alt="">   /></p>
+        <p><img src="img\tiramisu3.jpg" alt="">   /></p>
         <p>Dưới đây mình sẽ hướng dẫn các bạn làm công thức Tiramisù Ý theo 2 cách: cách truyền thống và cách hiện đại, tức là có lòng trắng trứng và không có lòng trắng trứng. Ngoài ra mình sẽ chú thích thêm nguyên liệu cũng như phương pháp thay thế dành cho những bạn ngại ăn trứng sống.</p>
         <p><b>NGUYÊN LIỆU:</b></p>
         <ul>
@@ -196,8 +201,8 @@ let data = [
         <li>socola đã cạo vụn (dùng rắc bánh &#8211; tùy chọn)</li>
         <li>1 cái rây nhỏ để rắc bột cacao</li>
         </ul>
-        <img src="Mind-X\Kitchies\img\tiramisu4.jpg" alt="">
-        <img src="Mind-X\Kitchies\img\tiramisu5.jpg" alt="">
+        <img src="tiramisu4.jpg" alt="">
+        <img src="img\tiramisu5.jpg" alt="">
         <p><b>CÁCH LÀM:</b></p>
         <ol>
         <li>Cà phê đun nóng sau đó để nguội rồi pha rượu vào. Chuẩn bị những nguyên liệu còn lại đầy đủ</li>
@@ -224,28 +229,30 @@ let data = [
         <p>Chúc các bạn thành công với món Tiramisù Ý nhé 🙂 Để theo dõi bài viết mới các bạn có thể ghé thăm Facebook Mykitchies &#8211; Bếp Á Âu của mình</p>`,
     },
     {
+        id: 6,
         nameFood:'Salad Nga với Táo ',
         type: 'Món Âu',
-        img: 'Mind-X\Kitchies\img\3.1.jpg',
+        img: 'img/salad1.jpg',
         intro: ``,
         content: ``,
     },
     {
         nameFood:'Cheesecake xoài không cần lò nướng ',
         type: 'Món Âu',
-        img: 'Mind-X\Kitchies\img\4.1.jpg',
+        img: 'img/cheesecake1.jpg',
         intro: ``,
         content: ``,
     },
     {
+        id: 7,
         nameFood:'Cách làm tương XO (sốt sò điệp HongKong)- homemade Hongkong XO sauce',
         type:'Món Á',
-        img:'Kitchies\img\sodiep1.jpg',
+        img:'img/sodiep1.jpg',
         intro:'<p>Tương XO là một loại sốt được làm chủ yếu từ hải sản khô có xuất xứ từ Hongkong, khá phổ biến trong ẩm thực Quảng Đông, được dùng để làm sốt chấm dumpling, các món xào nấu, cho vào ăn cùng cơm hay mì hoặc cho vào cơm rang để tăng thêm hương vị món ăn. Cái tên XO bắt nguồn từ loại rượu Cognac XO nổi tiếng của Pháp vì màu của chúng gần gần giống nhau, ngoài ra XO ở đây ám chỉ thứ gì đó chất lượng cao và mang tính sang trọng. Tương XO có vị cay, mặn vừa phải, hơi ngọt, thơm mùi hải sản khô và hành tỏi phi, tạo nên hương vị umami đặc biệt.</p>',
         content:`
         <p>Tương XO là một loại sốt được làm chủ yếu từ hải sản khô có xuất xứ từ Hongkong, khá phổ biến trong ẩm thực Quảng Đông, được dùng để làm sốt chấm dumpling, các món xào nấu, cho vào ăn cùng cơm hay mì hoặc cho vào cơm rang để tăng thêm hương vị món ăn. Cái tên XO bắt nguồn từ loại rượu Cognac XO nổi tiếng của Pháp vì màu của chúng gần gần giống nhau, ngoài ra XO ở đây ám chỉ thứ gì đó chất lượng cao và mang tính sang trọng. Tương XO có vị cay, mặn vừa phải, hơi ngọt, thơm mùi hải sản khô và hành tỏi phi, tạo nên hương vị umami đặc biệt.</p>
             <p>Thành phần chính có trong tương XO chủ yếu là tôm khô, cồi sò điệp khô và giăm bông muối treo khô Kim Hoa của tỉnh Triết Giang, Trung Quốc (Jinhua ham). Chính vì nguyên liệu khá đắt tiền nên tương XO cũng có giá khá cao so với các loại sốt khác trên thị trường. Nguyên liệu càng hịn thì thành phẩm càng ngon và giá thành cũng càng cao. Cồi sò điệp thì cồi càng to dày càng đắt tiền, cồi xuất xứ từ Nhật Bản sẽ thơm và ngọt thịt hơn cồi xuất xứ từ Trung Quốc. Giăm bông muối Jinhua trải qua quá trình ướp muối và phơi khô ở nơi tối và nhiệt độ thấp ổn định trong thời gian 9-10 tháng. Do điều kiện eo hẹp nên mình đành mua cồi sò điệp tươi đông đá về sấy khô và sử dụng Giăm bông Serrano của Tây Ban Nha để thay thế, tuy vậy thành phẩm cuối cùng mình tương đối hài lòng vì nó hơi bị thơm 😀</p>
-            <img src="Kitchies\img\sodiep2.jpg" alt="">
+            <img src="img\sodiep2.jpg" alt="">
             <strong>NGUYÊN LIỆU:</strong>
             <ul>
                 <li>150gr cồi sò điệp khô ( hoặc 450gr cồi sò điệp tươi tự sấy)</li>
@@ -275,7 +282,7 @@ let data = [
             <p>4.Tỏi với hành khô băm nhỏ. Riêng hành mình khuyên nên dùng máy xay qua để đỡ phải sướt mướt và siêu tiết kiệm thời gian. Ớt thái nhỏ.</p>
             <p>5.Đun nóng dầu sôi cỡ 150 độ, hoặc châm que đũa vào thấy bong bóng li ti nổi thì thả tỏi vào phi vàng, sau đó dùng muôi lưới vớt ra tô để riêng, tiếp đó làm tương tự với hành. Cẩn thận quá tay hành tỏi chuyển màu nâu đen nhé.</p>
             <p>6.Sau khi vớt hành thì đợi dầu nóng cho cồi sò điệp vào phi vàng rồi vớt ra, tiếp đến cho thịt giăm bông vào phi một chút rồi vớt ra. Tiếp đến cho tôm khô vào chiên tầm 30s thì cho ớt cay đã xắt nhỏ vào phi, sau đó cho toàn bộ nguyên liệu đã phi từ trước vào chảo, cho ớt bột tạo màu và hương thơm, cho nước mắm, dầu hào, muối, đường, 2 thìa ăn rượu còn lại cùng nước dùng gà và nước hấp thịt chảy ra. Hạ lửa rồi đảo đều khoảng 2 phút cho chúng hòa quyện vào nhau rồi tắt bếp. Để nguội rồi múc vào lọ đóng kín, để khoảng 2-3 ngày cho thành phẩm trở nên thơm ngon hơn.</p>
-            <img src="Kitchies\img\sodiep4.jpg" alt="">
+            <img src="img\sodiep4.jpg" alt="">
             <p>7.Bảo quản ngăn mát nếu đúng cách sẽ được tầm 3 tháng tới 1 năm, yêu cầu dầu ngập che phủ nguyên liệu sốt để giữ được lâu và không bị khô.</p>
             <p>Chúc các bạn thành công với món sò điệp nhé!</p>`,
     
@@ -283,9 +290,10 @@ let data = [
 
 
     {
+        id: 8,
         nameFood:'Bánh trung thu thập cẩm truyền thống - vietnamese mooncake with mixed nuts',
         type:'Món Á',
-        img:'Kitchies\img\banhtrungthu1.jpg',
+        img:'img/banhtrungthu1.jpg',
         intro:'<p>Tháng cô hồn đã qua, tháng cô Hằng sắp đến 😀 năm nay là năm đầu tiên mình học làm bánh nướng. Đợt này hải quan kiểm tra gắt gao hạn chế sản phẩm từ thịt du nhập vào nước nên ở nước ngoài xa xôi để kiếm một chiếc bánh trung thu thập cẩm (thập cẩm nha, loại khác nhiều lắm) thì hơi khó (do có nhân thịt), nếu có thì chỉ có hãng Kinh Đô mà mình thì không ưng lắm. Số còn lại thì chủ yếu nhà làm đem bán nhưng giá thành cao thật sự, cao hơn hẳn so với mọi năm, phận con nhà nghèo nên mình chỉ đủ tiền mua nhân thôi, vậy là mình quyết định tự làm ăn vừa sướng mồm vừa có quà tặng bạn bè.</p>',
         content:`
         <p>Tháng cô hồn đã qua, tháng cô Hằng sắp đến 😀 năm nay là năm đầu tiên mình học làm bánh nướng. Đợt này hải quan kiểm tra gắt gao hạn chế sản phẩm từ thịt du nhập vào nước nên ở nước ngoài xa xôi để kiếm một chiếc bánh trung thu thập cẩm (thập cẩm nha, loại khác nhiều lắm) thì hơi khó (do có nhân thịt), nếu có thì chỉ có hãng Kinh Đô mà mình thì không ưng lắm. Số còn lại thì chủ yếu nhà làm đem bán nhưng giá thành cao thật sự, cao hơn hẳn so với mọi năm, phận con nhà nghèo nên mình chỉ đủ tiền mua nhân thôi, vậy là mình quyết định tự làm ăn vừa sướng mồm vừa có quà tặng bạn bè.</p>
@@ -404,9 +412,10 @@ let data = [
 
 
     {
+        id: 9,
         nameFood:'Chân gà sốt Thái',
         type:'Món Á',
-        img:'Kitchies\img\changa1.jpg',
+        img:'img/changa1.jpg',
         intro:'<p>Có một dạo món chân gà sốt Thái lên ngôi, nhà nhà đua nhau làm, mình thì lười nên bắt trend hơi chậm. Món này mình làm lâu rồi nhưng chả hiểu sao trong máy chỉ chụp mỗi cái thành phẩm, công đoạn làm chắc dễ quá nên quên chụp :))</p>',
         content:`
         <p>Có một dạo món chân gà sốt Thái lên ngôi, nhà nhà đua nhau làm, mình thì lười nên bắt trend hơi chậm. Món này mình làm lâu rồi nhưng chả hiểu sao trong máy chỉ chụp mỗi cái thành phẩm, công đoạn làm chắc dễ quá nên quên chụp :))</p>
