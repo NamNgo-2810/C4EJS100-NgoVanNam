@@ -8,7 +8,7 @@ div {
 }
 .header {
     padding-bottom: 10rem;
-    background-image: url('https://scontent-xsp1-2.xx.fbcdn.net/v/t1.15752-9/p1080x2048/125152738_986546058422007_4513017913120055634_n.jpg?_nc_cat=101&ccb=2&_nc_sid=ae9488&_nc_ohc=LnNcngItKHIAX_U1Uh2&_nc_ht=scontent-xsp1-2.xx&tp=6&oh=ec212ea2719155ddca83214442de971f&oe=5FD28DB7');
+    background-image: url('img/background.jpg');
     background-position: center bottom;
     background-size: cover;
     text-align: center;
@@ -79,8 +79,11 @@ div {
     margin-bottom: 2rem;
 }
 
+/* .content .dish {
+    margin-top: 1rem;
+} */
 .content > div {
-    margin: 2rem 1rem 1rem 2rem;
+    padding: 2rem 1rem 1rem 2rem;
     width: 330px;
 }
 .content .dish .food-img {
@@ -93,26 +96,33 @@ div {
     width: 100%;
 }
 
+
 .content .dish > a {
     display: flex;
-    height: 9%;
-    align-items: center;
-    background-color: white;
+    justify-content: center;
+    margin-top: 1rem;
     padding: 5%;
     text-decoration: none;
-    font-family: 'EB Garamond';
+    color: #000;
     font-weight: 400;
     font-size: 120%;
-    color: #000;
-    text-align: center;
+    height: 9%;
+    background-color: white;
+    position: relative;
 }
+/* .content .dish > input {
+    display: none;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+} */
 .content .dish > a:hover {
     color: turquoise;
 }
 .content .dish .dish-content {
     background-color: white;
     padding: 10%;
-    max-height: 500px;
+    /* max-height: 500px; */
 }
 .content .dish .dish-content .view_more {
     text-decoration: none;
@@ -290,6 +300,10 @@ div {
 }
 #mobile_menu{
     display: none;
+}
+#remove-dishes{
+    display: none;
+    /* position: fixed; */
 }
 @media only screen and (max-width: 450px) {
     body {
