@@ -305,6 +305,7 @@ div {
     display: none;
     /* position: fixed; */
 }
+
 @media only screen and (max-width: 450px) {
     body {
         padding: 0;
@@ -383,6 +384,7 @@ div {
         margin-top: 20px;
         margin-bottom: 10px;
     }
+    
     .content .dish {
         display: flex;
         flex-direction: column-reverse;

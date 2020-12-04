@@ -1277,7 +1277,7 @@ let data = [{
             <span style="font-size:16px;">Đơn giản nhanh gọn phải không? Chúc cả nhà thành công với món này nhé 😁</span>Đ<span style="font-size:16px;">ể cập nhật các món mới, các bạn có thể ghé thăm trang facebook của mình </span>Mykitchies &#8211; Bếp Á Âu.</p>`
 },
 {
-    id: 20,
+    id: 26,
     nameFood:'Sinh tố xoài Mango Lassi kiểu Ấn',
     type: ['Drink'],
     img:'img/sinhtoxoai1.jpg',
@@ -1303,7 +1303,7 @@ let data = [{
 },
 
 {
-    id: 21,
+    id: 27,
     nameFood:'Cách làm sa tế (ớt chưng) Trung Hoa 2 - Chinese chili oil',
     type: ['Flavor'],
     img:'img/sate1.jpg',
@@ -1343,7 +1343,7 @@ let data = [{
 
 
 {
-    id: 22,
+    id: 28,
     nameFood:'Chao (Đậu Phụ Nhự)',
     type: ['Flavor'],
     img:'img/dauphu1.jpg',
@@ -1358,7 +1358,7 @@ let data = [{
 },
 
 {
-    id: 23,
+    id: 29,
     nameFood:'Gia vị cà ri đỏ Thái Lan - homemade red curry paste',
     type: ['Flavor'],
     img:'img/giavido1.jpg',
@@ -1399,7 +1399,7 @@ let data = [{
 },
 
 {
-    id: 24,
+    id: 30,
     nameFood:'Tương Đậu Biện Tứ Xuyên (Doubanjiang)',
     type: ['Flavor'],
     img:'img/dautuong1.jpg',
@@ -1429,7 +1429,7 @@ let data = [{
 },
 
 {
-    id:25,
+    id:31,
     nameFood:'Cách làm tương XO(sốt xò điệp HongKong) - homemade HongKong XO sauce',
     type: ['Flavor'],
     img:'img/tuongxo1.jpg',

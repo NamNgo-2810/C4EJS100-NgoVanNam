@@ -123,9 +123,12 @@
         <a href="home.html?Drink">Đồ uống</a>
         <a href="home.html?Flavor">Gia vị</a>
         <a href="#">About us</a>
-        <input type="text" id="hiding-search"placeholder="Search your favorie food">
+        <form autocomplete="off" action="/action_page.php">
+            <div class="autocomplete" style="width:300px;">
+              <input id="hiding-search" type="text" name="names-for-search" placeholder="Search your favorite food">
+            </div>
+        </form>
         <i class="fa fa-search" id="searching" style="font-size: 2em;"></i>
-        
     </div>
     <script>
         let search_bar = document.getElementById("hiding-search");
