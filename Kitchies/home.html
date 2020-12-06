@@ -26,8 +26,8 @@
        
         
     </nav>
-    <button id="remove-dishes">Remove</button>
-
+    <a id="remove-dishes"><i class="fa fa-trash-o" style="font-size:48px;color:red"></i></a>
+    <button id="add-dish" style="display: none;">Add</button>
     <div id="mobile_menu">
         <i class="fa fa-arrow-left" id="back" style="font-size:2em;"></i>
         <div class="search">
@@ -35,13 +35,13 @@
             <i class="fa fa-search" style="font-size: 1.5em;"></i>
         </div>
         <a href="home.html">Home</a>
-        <a href="#">Món Á</a>
-        <a href="#">Món Âu</a>
-        <a href="#">Món nấu nhanh</a>
-        <a href="#">Ăn vặt</a>
-        <a href="#">Đồ uống</a>
-        <a href="#">Gia vị</a>
-        <a href="#">About us</a>
+        <a href="home.html?Asia">Món Á</a>
+        <a href="home.html?Europe">Món Âu</a>
+        <a href="home.html?QuickCook">Món nấu nhanh</a>
+        <a href="home.html?Snack">Ăn vặt</a>
+        <a href="home.html?Drink">Đồ uống</a>
+        <a href="home.html?Spice">Gia vị</a>
+        <a href="#footer">About us</a>
     </div>
 
     <div class="header">
@@ -122,7 +122,7 @@
         <a href="home.html?Snack">Ăn vặt</a>
         <a href="home.html?Drink">Đồ uống</a>
         <a href="home.html?Flavor">Gia vị</a>
-        <a href="#">About us</a>
+        <a href="#footer">About us</a>
         <form autocomplete="off" action="/action_page.php">
             <div class="autocomplete" style="width:300px;">
               <input id="hiding-search" type="text" name="names-for-search" placeholder="Search your favorite food">
@@ -139,7 +139,7 @@
     </script>
     <div class="content"></div>
     
-    <div class="footer">
+    <div class="footer" id="footer">
         <div class="content1">
         <h1>CONTENT</h1>
         <p>C4EJS100 - TEAM Damdang Bois</p>

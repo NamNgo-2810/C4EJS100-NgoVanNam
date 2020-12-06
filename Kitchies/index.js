@@ -9,7 +9,7 @@ function show(dishes) {
         content.insertAdjacentHTML("beforeend", `
         <div class="dish">
             <a class="food-name" href="specific_dish.html?${dish.id}" rel="bookmark">${name}</a>
-            <input class="chosen" type="radio" style="visibility: hidden">
+            <input class="chosen" type="checkbox" style="visibility: hidden">
             <input class="rename" type="text" style="visibility: hidden">
             <button class="update" style="visibility: hidden">Rename</button> 
             <div class="food-img">
@@ -42,6 +42,7 @@ let loged_in = document.getElementById("enter");
 loged_in.addEventListener("click", function() {
     adminMode = true;
     showAdminMode();
+    nameUpdate();
 });
 function showAdminMode() {
     let chosen = document.getElementsByClassName("chosen");
@@ -54,6 +55,8 @@ function showAdminMode() {
         rename_btn[i].style.visibility = "visible";
     }
     remove_btn.style.display = "block";
+    remove_btn.style.zIndex = "1";
+    add_btn.style.display = "block";
 }
 
 function remove_dishes() {
@@ -79,8 +82,9 @@ function nameUpdate() {
     let foodName = document.getElementsByClassName("food-name");
     let rename_btn = document.getElementsByClassName("update");
     let newName = document.getElementsByClassName("rename");
-    for (let i = 0; i < data.length; i++) {
+    for (let i = 0; i < foodName.length; i++) {
         rename_btn[i].addEventListener("click", function() {
+            console.log("Pressed");
             if (newName[i].value.length > 0) {
                 foodName[i].innerHTML = newName[i].value;
             }
@@ -91,7 +95,7 @@ function nameUpdate() {
 let kindOfDish = location.search.slice(1);
 if (adminMode) {
     showAdminMode();
-    nameUpdate();
+    
 }
 else {
     if (kindOfDish.length > 0) show(findType(kindOfDish));
@@ -194,3 +198,9 @@ search_btn.addEventListener("click", () => {
         search_btn.addEventListener("click", search());
     }
 });
+
+function add() {
+    location = `http://127.0.0.1:5500/Kitchies/specific_dish.html?${data.length+1}`;
+}
+let add_btn = document.getElementById("add-dish");
+add_btn.addEventListener("click", function() {add()});

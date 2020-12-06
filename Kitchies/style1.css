@@ -68,12 +68,16 @@ div {
     display: none;
 }
 .content {
+    display: flex;
     background-color: #12353f;
-    margin-bottom: 0;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    /* width: 70%; */
 }
 .content .dish {
     margin-left: 2rem;
-    width: 60%;
+    width: 70%;
     background-color: white;
     border-radius: 10px;
 }
@@ -275,7 +279,7 @@ div {
 .footer{
     display:flex;
     justify-content: space-around;
-    background-color: #1c6b81;
+    background-color: white;
 }
 .footer .follow > i {
     font-size: 25px;
@@ -425,46 +429,34 @@ div {
         color: wheat;
         font-family: 'EB Garamond';
     }
-    
 }
-/* .content.side{
-    width: 20%;
+.content_side{
+    width: 15%;
     background-color: white;
     border-radius:10px ;
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding:20px;
     height:50%;
 }
-.content.middle{
-    width: 60%;
-    padding: 20px;
-}
-.row{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-*{
-    box-sizing: border-box;
-}
-
 ol,li,ul{
     list-style-type: none;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
-/* ul {
+ul {
     display: block;
-    margin-block-start: 1em;
+    /* margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    padding-inline-start: 40px;
-} */
-/* body a{
+    padding-inline-start: 40px; */
+}
+body a{
     text-decoration: none;
 }
-
+.social_network{
+    font-size:20px;
+}
 ul li .post-date{
     color: #999;
 }
@@ -488,4 +480,11 @@ h3{
     font-family: "EB Garamond",serif;
     font-weight: 400;
     font-style: normal;
-}  */
+}
+#input-form {
+    margin-left: 2rem;
+    width: 70%;
+    background-color: white;
+    border-radius: 10px;
+    outline: none;
+}
