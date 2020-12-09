@@ -53,6 +53,7 @@ function showAdminMode() {
         chosen[i].style.visibility = "visible";
         rename[i].style.visibility = "visible";
         rename_btn[i].style.visibility = "visible";
+        rename_btn[i].style.borderRadius = "5px";
     }
     remove_btn.style.display = "block";
     remove_btn.style.zIndex = "1";

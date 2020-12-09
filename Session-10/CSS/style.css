@@ -1,0 +1,14 @@
+#flex-box-demo {
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+.flex_items {
+    background-color: lightgreen;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    align-items: stretch;
+}

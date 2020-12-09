@@ -334,12 +334,12 @@ div {
     /* position: fixed; */
 }
 .rename {
-
+    border-radius: 5px;
 }
 .chosen {
     position: absolute;
-    top: 5px;
-    left: 5px;
+    top: 10px;
+    left: 10px;
 }
 .autocomplete-items {
     position: absolute;
